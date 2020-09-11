@@ -1,6 +1,6 @@
 import bs4
 
-block_level_elements = ['p', 'ul', 'ol', 'li', 'div', 'dd', 'dt', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'table', 'tr', 'td']
+block_level_elements = ['p', 'ul', 'ol', 'li', 'div', 'dd', 'dt', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'table', 'tr', 'td', 'br']
 
 def bs_semantic_text(soup):
     """Replacement for BeautifulSoup's get_text() that takes into account block-level elements"""
